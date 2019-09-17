@@ -1,0 +1,22 @@
+Credentials of Dev Org 
+
+pheonix@pheonix.com
+srt1994@
+
+
+Reproduction steps : 
+
+1) log in to the dev hub
+2) Set up >> Create custom settings by clicking New 
+3) Once created >> Click on Manage >> Give name as "Test"
+4) Switch on to Visual Studio
+5) Authorize Dev hub
+6) Create a project ( I have attached the updateLightning.zip)
+7) Once the code has been updated to lwc folder
+8) Deploy to the source org
+9) go to the Account record where we have created a Lightning button and click on Update
+10) You see the error on UI 
+Error{"error":{"ok":false,"status":400,"statusText":"INVALID_INPUT_COMBINATION","body":[{"errorCode":"INVALID_INPUT_COMBINATION","message":"Must provide at least one of the parameters - 'fields', 'layoutTypes', 'optionalFields'."}]}}
+11) Open the customer setting >> Manage >> The value test should be updated as "Record Updated".
+
+I have attached the video to recreate the issue. Please let me know if you have any questions. I have give my Dev hub credentials incase you want to test it. 
